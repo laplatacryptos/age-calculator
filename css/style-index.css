@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+/*Tipografia font-family: 'Poppins', sans-serif;*/
+
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Poppins', sans-serif;color:  hsl(0, 0%, 8%);}
+
+body{background-color:hsl(0, 0%, 94%);font-size: 16px;}
+section{width: 770px;background-color: hsl(0, 0%, 100%);font-size: 16px;margin: auto;padding: 50px;border-radius: 20px;border-bottom-right-radius: 150px;line-height: 70px;margin-top: 5%;}
+.type-age{display: flex; margin-bottom: 40px;position: relative;}
+div{margin-right: 25px;line-height: 30px;}
+section span{color: hsl(0, 1%, 44%);letter-spacing: 3px;font-size: .8rem;font-weight: 700;}
+input{font-size: 2rem;font-weight: 700; width: 145px;padding: 10px 0px 10px 15px;border-radius: 10px;border: solid 0.2px hsl(0, 0%, 86%);}
+input:hover{cursor: pointer;border-color:hsl(257, 96%, 65%);}
+hr{border-color: hsl(0, 0%, 86%);border: 0.02px solid hsl(0, 0%, 86%);width: 95%;margin-bottom: 60px;}
+button{border: none;background-color: hsl(257, 96%, 65%);border-radius: 50%;height: 90px;width: 90px; position: absolute;left: 92%;top: 100%;}
+button:hover{cursor: pointer;background-color: black;}
+img{width: 50px}
+.required{font-size: .8rem;color: #f09f9b;display: none;}
+.days-age, .months-age, .years-age{font-size: 6rem;color:hsl(257, 96%, 65%);font-weight: 700;font-style: italic;transition: 0.5s ease-in-out;}
+p{font-size: 6rem;font-style: italic;font-weight: 900;display: inline-block;}
+
+
+@media screen and (max-width: 500px){
+    
+    .type-age{padding-bottom: 50px;}
+    button{left: 30%;transform: translateY(-50%);top: 130%;}
+    
+    
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator app</title>
+    <link rel="stylesheet" href="./css/style-index.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="type-age">
+                <button type="button" id="btn-age-calc"><img src="./img/icon-arrow.svg" alt="boton">
+                </button>
+                <div>
+                    <span>DAY</span>
+                    <br>
+                    <input type="number" class="day" max="31" min="00" placeholder="DD">
+                    <p class="required">This field es required</p>
+                </div>
+                <div>
+                    <span>MONTH</span>
+                    <br>
+                    <input type="number" class="month" max="12" min="00" placeholder="MM">
+                    <p class="required">This field es required</p>
+                </div>
+                <div>
+                    <span>YEAR</span>
+                    <br>
+                    <input type="number" class="year" max="2023" min="1900" placeholder="YYYY">
+                    <p class="required">This field es required</p>
+                </div>
+            </div>
+            <hr>
+
+            <span class="years-age">--</span>
+            <p>years</p><br>
+            <span class="months-age">--</span>
+            <p>months</p><br>
+            <span class="days-age">--</span>
+            <p>days</p>
+        </section>
+
+    </main>
+
+    <script src="./js/cod-index.js"></script>
+</body>
+
+</html>
